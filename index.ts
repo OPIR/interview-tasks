@@ -10,6 +10,8 @@ import {
 } from "./week_1/merge-linked-list/helper";
 import maxProfit from "./week_1/max-profit";
 import isPalindrome from "./week_1/palindrome";
+import { TreeNode, invertTree } from "./week_1/invert-binary-tree";
+import isAnagram from "./week_1/is-anagram";
 
 // twoSum([7, 3, 2, 4], 6);
 
@@ -34,8 +36,15 @@ import isPalindrome from "./week_1/palindrome";
 // console.log(maxProfit([7, 1, 5, 3, 6, 4]));
 // console.log(maxProfit([7, 6, 4, 3, 1]));
 
-console.log(
-  "A man, a plan, a canal: Panama",
-  isPalindrome("A man, a plan, a canal: Panama")
-);
-console.log("race a car", isPalindrome("race a car"));
+// console.log(
+//   "A man, a plan, a canal: Panama",
+//   isPalindrome("A man, a plan, a canal: Panama")
+// );
+// console.log("race a car", isPalindrome("race a car"));
+
+// const root = new TreeNode(0, new TreeNode(1), new TreeNode(2));
+
+// const res = invertTree(root);
+// console.log(res);
+
+console.log(isAnagram("asd", "das"));

@@ -12,6 +12,8 @@ import maxProfit from "./week_1/max-profit";
 import isPalindrome from "./week_1/palindrome";
 import { TreeNode, invertTree } from "./week_1/invert-binary-tree";
 import isAnagram from "./week_1/is-anagram";
+import search from "./week_1/binary-search";
+import updateMatrix from "./week_2/matrix-01";
 
 // twoSum([7, 3, 2, 4], 6);
 
@@ -47,4 +49,14 @@ import isAnagram from "./week_1/is-anagram";
 // const res = invertTree(root);
 // console.log(res);
 
-console.log(isAnagram("asd", "das"));
+// console.log(isAnagram("asd", "das"));
+
+// console.log(search([1, 2, 3, 4, 5, 6, 7, 7, 9], 7));
+
+console.log(
+  updateMatrix([
+    [0, 0, 0],
+    [0, 1, 0],
+    [1, 1, 1],
+  ])
+);
